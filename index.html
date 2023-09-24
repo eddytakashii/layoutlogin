@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container m-auto">
+        <form action="" class="was-validated">
+            <div class="mb-3 mt-3">
+                <h2 class="mb-4">Criação de Login</h2>
+                <label for="uname" class="form-label">Usuário:</label>
+                <input type="text" class="form-control form-control-lg" id="uname" placeholder="Digite o usuário" name="uname" required>
+                <div class="valid-feedback">Informação Válida</div>
+                <div class="invalid-feedback">Preencha o dado do usuário </div>
+            </div>
+            <div class="mb-3">
+                <label for="pwd" class="form-label">Senha:</label>
+                <input type="password" class="form-control form-control-lg" id="pwd" placeholder="Digite a senha" name="pswd" required>
+                <div class="valid-feedback">Informação Válida</div>
+                <div class="invalid-feedback">Informe a senha </div>
+            </div>
+            <div class="mb-3">
+                <label for="pwd" class="form-label">Confirmação Senha:</label>
+                <input type="password" class="form-control form-control-lg" id="pwd" placeholder="Confirme a senha" name="pswd" required>
+                <div class="valid-feedback">Informação Válida</div>
+                <div class="invalid-feedback">Informe a senha </div>
+            </div>
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="chkPermissao" name="remember" required>
+                <label class="form-check-label" for="myCheck">Eu concordo com os termos de aceite</label>
+                <div class="valid-feedback">Informação Válida</div>
+                <div class="invalid-feedback">Clique em concordar para seguir </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-primary">Limpar formulário</button>
+        </form>
+</div>
+</body>
+</html>
